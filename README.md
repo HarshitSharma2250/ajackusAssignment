@@ -1,15 +1,40 @@
-# React + Vite
+# Ajackus Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + Vite project built as part of an assignment.  
+The application demonstrates CRUD operations (View, Add, Edit, Delete) with a mock API (JSONPlaceholder) and a responsive UI using Material-UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+[Click here to view the deployed app](https://ajackusassignment11.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ajackusAssignment
-# ajackusAssignment
-# ajackusAssignment
+## 🛠️ Tech Stack
+- **React (with Vite)** – fast development environment
+- **Redux Toolkit (RTK + Thunk)** – state management and async actions
+- **Material UI (MUI)** – responsive UI components
+- **Formik + Yup** – form handling and validation
+- **Axios** – HTTP requests
+- **React Router DOM** – routing and navigation
+
+---
+
+## 📌 Features
+- View all users in a table (with search, filter, pagination)
+- Add a new user (form with validation)
+- Edit existing user (prefilled form)
+- Delete a user
+- Error handling + loading state
+- Toast notifications for feedback
+
+---
+
+## 📦 Installation & Setup
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/HarshitSharma2250/ajackusAssignment.git
+cd ajackusAssignment
+npm install
+
